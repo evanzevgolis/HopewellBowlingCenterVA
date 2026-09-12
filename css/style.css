@@ -20,12 +20,12 @@ header {
 
   h2 {
         font-size: 1.75rem;
-        color: #ffffff;
+        color: #b5c8bf;
     }
 
  h3 {
         font-size: 1.25rem;
-        color: #ffffff;
+        color: #b5c8bf;
     }
 
 p {
@@ -47,7 +47,7 @@ p {
 footer {
     text-align: center;
     font-size: 0.875rem;
-    color: #666666;
+    color: #cf0000;
     padding: 20px;
 }
 .cta {
