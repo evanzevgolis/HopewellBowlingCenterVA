@@ -1,7 +1,7 @@
 body {
-    font-family: Georgia, serif;
+    font-family: BD Retrocentric, serif;
     color: #181616;
-  background-color: #e2e2e2;
+  background-color: #1f1f1f;
 }
 
 header {
@@ -68,7 +68,7 @@ footer {
     vertical-align: top;
 }
 
-.swatch-primary { background-color: #E2E2E2; }
+.swatch-primary { background-color: #1f1f1f; }
 .swatch-neutral { background-color: #181616; }
 .swatch-accent { background-color: #910404; }
 .swatch-cta { background-color: #630101; }
