@@ -1,11 +1,11 @@
 body {
     font-family: Terminus;
     color: #d1d1d1;
-  background-color: #232323;
+  background-color: #1f1f1f;
 }
 
 header {
-   background-color: #232323
+   background-color: #751515
       color: #ffffff;
   padding: 20px;
 }
@@ -52,7 +52,7 @@ footer {
 }
 .cta {
     display: inline-block;
-    background-color: #c85d5d;
+    background-color: #771515;
     color: #ffffff;
     font-size: 1.25rem;
     padding: 16px 32px;
