@@ -10,20 +10,20 @@ header {
   padding: 20px;
 }
     
-    header nav a {
+ header nav a {
         color: #e2e2e2;
         margin-right: 16px;
     }
-    h1 {
+  h1 {
         font-size: 2.5rem;
     }
 
-    h2 {
+  h2 {
         font-size: 1.75rem;
         color: #ffffff;
     }
 
-    h3 {
+ h3 {
         font-size: 1.25rem;
         color: #ffffff;
     }
