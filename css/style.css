@@ -14,6 +14,31 @@ header {
         color: #ffffff;
         margin-right: 16px;
     }
+nav a[aria-current="page"] {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 8px 16px;
+  z-index: 100;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+a:focus {
+  outline: 3px solid eecd1c;
+  outline-offset: 2px;
+}
+
   h1 {
         font-size: 2.5rem;
     }
