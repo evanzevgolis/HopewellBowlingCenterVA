@@ -75,6 +75,26 @@ footer {
     color: #c6c6c6;
     padding: 20px;
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #ba0000;
+    padding: 0.5 rem;
+    text-align: left;
+}
+
+th {
+    background-color: #ba0000;
+    color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #dfe5e5
+}
+    
 .cta {
     display: inline-block;
     background-color: #771515;
