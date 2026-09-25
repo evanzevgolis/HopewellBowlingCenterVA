@@ -81,13 +81,13 @@ table {
     width: 100%;
 }
 th, td {
-    border: 1px solid #ba0000;
+    border: 1px solid #9c0d0d;
     padding: 0.5 rem;
     text-align: left;
 }
 
 th {
-    background-color: #ba0000;
+    background-color: #9c0d0d;
     color: #ffffff;
 }
 
