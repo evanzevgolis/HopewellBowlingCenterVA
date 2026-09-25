@@ -92,7 +92,7 @@ th {
 }
 
 tbody tr:nth-child(even) {
-    background-color: #dfe5e5
+    background-color: #0a0a0a;
 }
     
 .cta {
