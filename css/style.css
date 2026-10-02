@@ -94,7 +94,38 @@ th {
 tbody tr:nth-child(even) {
     background-color: #0a0a0a;
 }
-    
+
+label {
+    display: block;
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+input, textarea {
+    display: block;
+    margin-top: 0.25rem;
+    width: 100%;
+    max-width: 480px;
+}
+button[type="Submit"] {
+    display: block;
+    margin-top: 2rem;
+
+   button[type="Submit"] {
+    display: block;
+    margin-top: 2rem;
+       background-color: #910404
+           color: #ffffff;
+       font-size: 1.25rem;
+       padding: 16px 32px;
+       border: none;
+    border-radius: 4px;
+   }
+    form {
+        background-color: #d1d1d1;
+         padding: 32px;
+         border-radius: 8px;
+         max-width: 480px;
+    }
 .cta {
     display: inline-block;
     background-color: #771515;
