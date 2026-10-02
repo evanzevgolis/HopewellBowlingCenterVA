@@ -21,8 +21,27 @@
 </header>
  
   <main id="main-content">
-    <h2>contact</h2>
-    <p>Full Contact Details are coming soon.</p>
+    <h2>Contact us for your next Bowling Visit.</h2>
+    <p>Hopewell Bowling Center provides both Casual and League Bowling for your visit. Fill out the Form shown, and we will assist you in booking a visit</p>
+    <form action="https://formspree.io/f/your-form-id" method="post">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+       <label for="email">Phone</label>
+      <input type="phone" id="phone" name="phone">
+      <p>What are you looking to meet us for?</p>
+         <label for="bowling-session">Casual Bowling</label>
+      <input type="radio" id="bowling-session" name="bowling-type" value+="group" checked>
+
+          <label for="bowling-session">League Bowling</label>
+      <input type="radio" id="bowling-league" name="bowling-type" value+="group" league>
+      <label for="newsletter">Email me about Upcomiong Bowling Events</label>
+      <input type="checkbox" id="newsletter" name="newsletter">
+        <label for="message">What would you like to ask us?</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Send Requests for a Visit</button> 
+      </form>
   </main>
 
   <footer>
