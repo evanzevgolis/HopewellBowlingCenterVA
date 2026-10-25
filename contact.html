@@ -23,6 +23,8 @@
   <main id="main-content">
     <h2>Contact us for your next Bowling Visit.</h2>
     <p>Hopewell Bowling Center provides both Casual and League Bowling for your visit. Fill out the Form shown, and we will assist you in booking a visit</p>
+   <button onclick="getLocation()">See how close you are</button>
+    <p id="location-message"></p>
     <form action="https://formspree.io/f/your-form-id" method="post">
       <label for="name">Name</label>
       <input type="text" id="name" name="name" required>
@@ -42,8 +44,7 @@
       <textarea id="message" name="message" required></textarea>
       <button type="submit">Send Requests for a Visit</button> 
       </form>
-  <button onclick="getLocation()">See how close you are</button>
-    <p id="location-message"></p>
+ 
   </main>
 
   <footer>
