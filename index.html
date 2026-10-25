@@ -33,6 +33,23 @@
   <footer>
     <p>&copy; 2026 Hopewell Bowling Center VA. 115 Street 15th Ave, Hopewell, VA 23860.</p>
     <p><a href="style-tile.html">View this projects style-tile</p>
+
   </footer>
+  <script>
+  function getLocation() {
+    navigator.geolocation.getCurrentPosition(showPosition, showError);
+  }
+      function showPosition(position) {
+    var lat = position.coords.latitude.toFixed(1);
+    var lon = position.coords.longitude.toFixed(1);
+    document.getElementById("location-message").textContent =
+         "You are near " + lat + ", " + lon + "Hopewell Bowling Center is within the County of Hopewell in Virginia, plan to drive extra miles if you a further from the county.";
+     }
+
+ function showError(error) {
+    document.getElementById("location-message").textContent =
+      "Sorry not sorry, but your location is not available. You could try again, but we doubt that would do anything. :/");
+  }
+    </script>
 </body>
 </html>
