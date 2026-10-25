@@ -23,8 +23,6 @@
   <main id="main-content">
     <h2>Contact us for your next Bowling Visit.</h2>
     <p>Hopewell Bowling Center provides both Casual and League Bowling for your visit. Fill out the Form shown, and we will assist you in booking a visit</p>
-<button onclick="getLocation()">See How Close You are to us.</button>
-<p id="location-message"></p>
     <form action="https://formspree.io/f/your-form-id" method="post">
       <label for="name">Name</label>
       <input type="text" id="name" name="name" required>
@@ -50,21 +48,5 @@
   <footer>
     <p>&copy; 2026 Hopewell Bowling Center VA. 115 Street 15th Ave, Hopewell, VA 23860.</p>
   </footer>
-<script>
-  function getLocation() {
-    navigator.geolocation.getCurrentPosition(showPosition, showError);
-  }
-      function showPosition(position) {
-    var lat = position.coords.latitude.toFixed(1);
-    var lon = position.coords.longitude.toFixed(1);
-    document.getElementById("location-message").textContent =
-         "You are near " + lat + ", " + lon + "Hopewell Bowling Center is within the County of Hopewell in Virginia, plan to drive extra miles if you a further from the county.";
-     }
-
- function showError(error) {
-    document.getElementById("location-message").textContent =
-      "Sorry not sorry, but your location is not available. You could try again, but we doubt that would do anything. :/");
-  }
-    </script>
 </body>
 </html>
