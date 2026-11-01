@@ -14,11 +14,27 @@ header {
         color: #ffffff;
         margin-right: 16px;
     }
-nav a[aria-current="page"] {
-  font-weight: bold;
-  text-decoration: underline;
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
+@media (min-width: 600px) {
+  nav {
+    flex-direction: row;
+  }
+}
+.page-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+@media (min-width: 700px) {
+  .page-layout {
+    flex-direction: row;
+  }
 .skip-link {
   position: absolute;
   top: -40px;
