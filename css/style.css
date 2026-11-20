@@ -32,7 +32,7 @@ nav {
   padding: 20px;
 }
 @media (min-width: 700px) {
-  .page-layout {
+{
     flex-direction: row;
   }
 }
