@@ -1,3 +1,147 @@
+body {
+    font-family: "Archivo Black", sans-serif;
+    color: #d1d1d1;
+  background-color: #1f1f1f;
+}
+
+header {
+   background-color: #9c0d0d;
+       color: #ffffff;
+  padding: 20px;
+}
+    
+ header nav a {
+        color: #ffffff;
+        margin-right: 16px;
+    }
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (min-width: 600px) {
+  nav {
+    flex-direction: row;
+  }
+}
+.page-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+@media (min-width: 700px) {
+  .page-layout {
+    flex-direction: row;
+  }
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 8px 16px;
+  z-index: 100;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+a:focus {
+  outline: 3px solid #eecd1c;
+  outline-offset: 2px;
+}
+
+  h1 {
+        font-size: 2.5rem;
+    }
+
+  h2 {
+        font-size: 1.75rem;
+        color: #d1d1d1;
+    }
+
+ h3 {
+        font-size: 1.25rem;
+        color: #910404;
+    }
+
+p {
+    font-size: 1rem;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+h2 {
+    margin-bottom: 8px;
+}
+
+p {
+    margin-bottom: 32px;
+}
+footer {
+    text-align: center;
+    font-size: 0.875rem;
+    color: #c6c6c6;
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #9c0d0d;
+    padding: 0;
+    text-align: left;
+}
+
+th {
+    background-color: #9c0d0d;
+    color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #0a0a0a;
+}
+
+label {
+    display: block;
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+input, textarea {
+    display: block;
+    margin-top: 0.25rem;
+    width: 100%;
+    max-width: 480px;
+}
+button[type="Submit"] {
+    display: block;
+    margin-top: 2rem;
+
+   button[type="Submit"] {
+    display: block;
+    margin-top: 2rem;
+       background-color: #910404;
+           color: #ffffff;
+       font-size: 1.25rem;
+       padding: 16px 32px;
+       border: none;
+    border-radius: 4px;
+   }
+    form {
+        background-color: #d1d1d1;
+         padding: 32px;
+         border-radius: 8px;
+         max-width: 480px;
+    }
 .cta {
     display: inline-block;
     background-color: #771515;
@@ -24,4 +168,4 @@
 .type-sample-h1 {font-size: 2.5rem; }
 .type-sample-h2 {font-size: 1.75rem; }
 .type-sample-h3 {font-size: 1.25rem; }
-.type-sample-body {font-size: 1.10rem; }
+.type-sample-body {font-size: 1.0rem; }
