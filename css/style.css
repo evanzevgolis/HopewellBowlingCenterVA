@@ -35,6 +35,7 @@ nav {
   .page-layout {
     flex-direction: row;
   }
+}
 .skip-link {
   position: absolute;
   top: -40px;
